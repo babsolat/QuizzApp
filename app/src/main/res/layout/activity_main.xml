@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.project3quizzapp.MainActivity"
+    android:background="#AB47BC"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="how much do you know your country ?"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="#AB47BC"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#AB47BC"
+            android:layout_gravity="center"
+            android:text="grab a cup of coffee and enjoy"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_marginTop="1dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Enter your name below"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:text=""
+            android:textColorHint="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="question 1"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/q_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="What does the black shield in the Nigeria coat of arm stand for ?"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+<RadioGroup
+    android:id="@+id/q_1_rg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    >
+
+
+    <RadioButton
+        android:id="@+id/q_1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coal"
+        android:textSize="16sp"
+        android:paddingEnd="12dp"
+        android:paddingLeft="12dp"
+        android:paddingStart="12dp"
+        android:background="#F44336" />
+
+
+    <RadioButton
+        android:id="@+id/q_1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The color of our skin"
+        android:textSize="16sp"
+        android:paddingEnd="12dp"
+        android:paddingLeft="12dp"
+        android:paddingStart="12dp"
+        android:background="#F44336"
+        android:layout_marginTop="10dp"/>
+
+
+    <RadioButton
+        android:id="@+id/q_1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The nigeria fertile soil"
+        android:textSize="16sp"
+        android:paddingEnd="12dp"
+        android:paddingLeft="12dp"
+        android:paddingStart="12dp"
+        android:background="#F44336"
+        android:layout_marginTop="10dp"/>
+
+</RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="question 2"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/q_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Who is the present Nigeria deputy senate president ?"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q_2_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/q_2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mallam El-Rufai"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336" />
+
+
+            <RadioButton
+                android:id="@+id/q_2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sanator Bukola Saraki"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q_2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senator Ike Ekweremadu"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="question 3"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/q_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Who was the first female vice-chancellor in Nigeria ?"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q_3_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/q_3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grace Alele Williams"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336" />
+
+
+            <RadioButton
+                android:id="@+id/q_3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flora Shaw"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q_3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Professor Aize Obayan"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="question 4"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/q_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="The minority commission appointed in Nigeria in 1957 recommended that ?"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q_4_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/q_4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more state should be created in the federation"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336" />
+
+
+            <RadioButton
+                android:id="@+id/q_4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no more states should be created before in dependence"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q_4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nigeria should revert to a unitary structure"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="question 5"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/q_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Which of the following is not an acceptable means of achieving democracy ?"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q_5_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/q_5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Referendum"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336" />
+
+
+            <RadioButton
+                android:id="@+id/q_5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riot"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q_5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Initiative"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="question 6"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/q_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="how many ministers do we have in Nigeria ?"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q_6_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/q_6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="36"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336" />
+
+
+            <RadioButton
+                android:id="@+id/q_6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="37"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q_6c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="38"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="question 7"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/q_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Laws made by state government are known as  ?"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q_7_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/q_7a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edicts"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336" />
+
+
+            <RadioButton
+                android:id="@+id/q_7b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bye laws"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q_7c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acts"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="question 8"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/q_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="who is the current minister of the F.C.T ?"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q_8_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/q_8a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bala Mohammed"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336" />
+
+
+            <RadioButton
+                android:id="@+id/q_8b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mohammed Bello"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q_8c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kayode Fayemi"
+                android:textSize="16sp"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"/>
+
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clear_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="Reset"
+                android:textSize="14sp"
+                android:textStyle="bold"
+               android:onClick="Reset_Button"
+                />
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="Submit"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:onClick="submitButton"
+               />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
